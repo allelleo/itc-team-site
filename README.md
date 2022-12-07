@@ -5,7 +5,7 @@
 + Django 3
 + SQLite 3
 + Html 5
-+ Css KK3
++ Css 3
 + Javascript
 + Bootstrap v4.4.1
 + jQuery Ripples plugin v0.6.2
