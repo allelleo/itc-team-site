@@ -1,0 +1,785 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- Edit The description of your site in the next meta -->
+    <meta name="description" content="ThemeForest Exclusive Responsive Personal Template">
+    <meta name="author" content="Yahya Essam - VisionsCode">
+
+    <title>ITC team</title>
+    <!-- Icon link: replace image directly in folder: ./{% static 'images/img/logo.jpg' %} -->
+    <link rel="icon" type="image/ico" href="{% static 'img/logo.jpg' %}"/> <!-- Edit Icon Here -->
+    <!-- ========== [1.1] CSS Links ========== -->
+    <link href="{% static 'css/animate.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.css' %}">
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/font-awesome.min.css' %}" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap"
+          rel="stylesheet">
+    <!-- ========== [1.2] Custmize Style ========== -->
+    <link rel="stylesheet" href="{% static 'css/root-colors.css' %}">
+    <link href="{% static 'css/persone-style.css' %}" rel="stylesheet">
+    <!-- Colors -->
+    <link href="{% static 'css/persone-color.css' %}" rel="stylesheet">
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () {
+                (h.hj.q = h.hj.q || []).push(arguments)
+            };
+            h._hjSettings = {hjid: 3170637, hjsv: 6};
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+</head>
+
+<body>
+<!-- ========== [2.1] Loading animation ========== -->
+<div class="loading">
+    <div class="table-cell">
+        <div class="sk-fading-circle">
+            <div class="sk-circle1 sk-circle"></div>
+            <div class="sk-circle2 sk-circle"></div>
+            <div class="sk-circle3 sk-circle"></div>
+            <div class="sk-circle4 sk-circle"></div>
+            <div class="sk-circle5 sk-circle"></div>
+            <div class="sk-circle6 sk-circle"></div>
+            <div class="sk-circle7 sk-circle"></div>
+            <div class="sk-circle8 sk-circle"></div>
+            <div class="sk-circle9 sk-circle"></div>
+            <div class="sk-circle10 sk-circle"></div>
+            <div class="sk-circle11 sk-circle"></div>
+            <div class="sk-circle12 sk-circle"></div>
+        </div> <!-- loading Animation -->
+    </div>
+</div>
+<!-- ========== End Of Loading Animation ==========-->
+
+<!-- ========== [2.2] Nav Bar ========== -->
+<nav id="nav" class="navbar navbar-expand-lg custom-navbar fixed-top">
+    <div class="container">
+        <!-- NAVBAR HEADER -->
+        <a href="/" class="navbar-brand"><span class="special">ITC</span> team.</a>
+        <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <svg class="btnToggle" xmlns="http://www.w3.org/2000/svg" height="23px" viewBox="191 -64 30 437"
+                     width="29px">
+                    <path
+                            d="m368 154.667969h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"/>
+                    <path
+                            d="m368 32h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"/>
+                    <path
+                            d="m368 277.332031h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"/>
+                </svg>
+            </button>
+            <!-- lOGO TEXT HERE -->
+
+        </div>
+        <!-- NAVIGATION LINKS -->
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="#home" class="smoothScroll nav-link">Главная</a>
+                </li>
+                <li class="nav-item"><a href="#about"
+                                        class="smoothScroll nav-link">О нас</a></li>
+
+                <li class="nav-item"><a href="#portfolio" class="smoothScroll nav-link">Проекты</a>
+                </li>
+                <li class="nav-item"><a href="#testimonials" class="smoothScroll nav-link">Участники</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- ========== End Of Nav Bar ========== -->
+
+<!-- ========== [2.3] Header ========== -->
+<div id="home" class="demo-1">
+    <div id="large-header" class="large-header rip jarallax"
+         style="background-image:url({% static 'img/stars-2.jpg' %});">
+        <!-- Edit Header Background Image ex url('{% static 'img/image-name.jpg' %}) -->
+        <canvas id="demo-canvas"></canvas>
+        <div class="table">
+            <div class="table-cell">
+                <div class="container">
+                    <h1 class="wow fadeIn">Это что<br>
+                        <span><strong>ИТС??</strong> </span> Тот самый??</h1>
+                    <!-- Edit  -->
+                    <p class="wow fadeIn">
+                        <strong>ИТС </strong> - информационно-техническое сообщество  <!-- Edit -->
+                    </p>
+                    <a href="#portfolio" class="btn-about smoothScroll wow fadeIn"><span>Наши проекты</span></a>
+                    <!-- Edit -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ========== End Header ========= -->
+
+<!-- ========== [2.4] About ========== -->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 wow fadeInLeft" data-wow-delay=".4s">
+                <div class="profile-img1">
+                    <img class="img-fluid" alt="profile picture" src="{% static 'img/logo.jpg' %}"/>
+                </div>
+                <!-- Profile Image -->
+            </div>
+            <div class="col-md-8 wow fadeInRight" data-wow-delay=".6s">
+                <h2><span>Привет мы  </span>ИТС</h2> <!-- Edit -->
+                <p class="strong-p">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A distinctio eos facere quibusdam sequi
+                    ullam.
+                </p>
+                <p>
+                    <!-- Edit -->
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet animi aspernatur, consequuntur
+                    deserunt dolor fugiat hic illum incidunt iusto laborum, necessitatibus nihil quibusdam, rerum sed
+                    suscipit totam ullam. Commodi, deserunt, sed. Commodi cumque dicta ea hic iusto nihil, nostrum
+                    praesentium quas quibusdam quis repellat sint sunt, tempore vero voluptatibus!
+                </p>
+
+                <!-- Hire Me button -->
+            </div>
+        </div>
+    </div>
+</section>
+<!--
+<section class="exp-skills">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="section-title "><span>Main</span> Skills </h2>
+                <br>
+                <p class="sub-title">
+                    Some of my main skills I love to work with.
+
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 dark-half">
+                <div class="skills-wrapper">
+                    <div class="progress-bar skill">
+                            <span class="label">
+                                HTML
+                            </span>
+                        <span class="progress-percentage skill-bar wow slideInLeft animated" style="width:97%">
+
+                            </span>
+                        <span class="progress-percent">97%</span>
+                    </div>
+                    <div class="progress-bar skill">
+                            <span class="label">
+                                CSS
+                            </span>
+                        <span class="progress-percentage skill-bar wow slideInLeft animated" style="width:90%">
+
+                            </span>
+                        <span class="progress-percent">90%</span>
+                    </div>
+                    <div class="progress-bar skill">
+                            <span class="label">
+                                PhotoShop
+                            </span>
+                        <span class="progress-percentage skill-bar wow slideInLeft animated" style="width:75%">
+
+                            </span>
+                        <span class="progress-percent">75%</span>
+                    </div>
+                    <div class="progress-bar skill">
+                            <span class="label">
+                                Illustrator
+                            </span>
+                        <span class="progress-percentage skill-bar wow slideInLeft animated" style="width:95%">
+
+                            </span>
+                        <span class="progress-percent">95%</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-6">
+                <div class="skills-wrapper">
+                    <div class="progress-bar skill">
+                            <span class="label">
+                                Adobe XD
+                            </span>
+                        <span class="progress-percentage skill-bar wow slideInLeft animated" style="width:80%">
+
+                            </span>
+                        <span class="progress-percent">80%</span>
+                    </div>
+                    <div class="progress-bar skill">
+                            <span class="label">
+                                After Effect
+                            </span>
+                        <span class="progress-percentage skill-bar wow slideInLeft animated" style="width:70%">
+
+                            </span>
+                        <span class="progress-percent">70%</span>
+                    </div>
+                    <div class="progress-bar skill">
+                            <span class="label">
+                                Premier
+                            </span>
+                        <span class="progress-percentage skill-bar wow slideInLeft animated" style="width:65%">
+
+                            </span>
+                        <span class="progress-percent">65%</span>
+                    </div>
+                    <div class="progress-bar skill">
+                            <span class="label">
+                                Figma
+                            </span>
+                        <span class="progress-percentage skill-bar wow slideInLeft animated" style="width:95%">
+
+                            </span>
+                        <span class="progress-percent">95%</span>
+                    </div>
+                </div>
+               `<div class="single-exp">
+                    <div class="stamp" style="right:10px">
+                        <p> 2018 ~ Present <br> Google </p>
+                    </div>
+                    <div class="position">
+                        Senior Digital Marketing
+                    </div>
+                </div>
+                <div class="single-exp">
+                    <div class="stamp" style="right:100px">
+                        <p> 2016 ~ 2018 <br> FaceBook </p>
+                    </div>
+                    <div class="position">
+                        Junior Digital Marketing
+                    </div>
+                </div>
+                <div class="single-exp">
+                    <div class="stamp" style="right:200px">
+                        <p> 2014 ~ 2016 <br> LinkedIn </p>
+                    </div>
+                    <div class="position">
+                        Digital Marketing
+                    </div>
+                </div> `
+            </div>
+        </div>
+    </div>
+</section>
+-->
+<!-- ========== End About ========== -->
+
+<!-- ========== [2.5] Services ========== -->
+<!--
+<section id="services">
+    <div class="container text-center">
+        <h2 class="section-title">Services</h2>
+        <br>
+        <p class="sub-title">
+            I am offering My Customers very Special Services and Solutions and Here are My main Services.
+
+        </p>
+        <div class="row wow fadeInUp" data-wow-delay=".5s">
+
+            <div class="col-lg-3 col-md-6">
+                <div class="feature">
+                    <i class="fa fa-html5 fa-5x" aria-hidden="true"></i>
+                    <h3>Web Design</h3>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="feature">
+                    <i class="fa fa-code fa-5x" aria-hidden="true"></i>
+                    <h3>Web Develop</h3>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="feature">
+                    <i class="fa fa-pencil-square-o fa-5x" aria-hidden="true"></i>
+                    <h3>Well Documented</h3>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="feature">
+                    <i class="fa fa-eye fa-5x" aria-hidden="true"></i>
+                    <h3>Awesome Display</h3>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="feature">
+                    <i class="fa fa-check-circle-o fa-5x" aria-hidden="true"></i>
+                    <h3>100% Responsive</h3>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="feature">
+                    <i class="fa fa-thumbs-o-up fa-5x" aria-hidden="true"></i>
+                    <h3>Retina Ready</h3>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="feature">
+                    <i class="fa fa-line-chart fa-5x" aria-hidden="true"></i>
+                    <h3>Analytics</h3>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="feature">
+                    <i class="fa fa-life-ring fa-5x"></i>
+                    <h3>Support</h3>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+-->
+<!-- ========== End Services ========== -->
+
+<!-- ========== [2.6] Portfolio ========== -->
+<section id="portfolio">
+    <div class="container text-center">
+        <h2 class="section-title">Наши проекты</h2>
+        <br>
+        <p class="sub-title">
+            Че мы натворили то???
+            <!-- Edit -->
+        </p>
+        <div class="row wow fadeInUp" data-wow-delay=".5s">
+            <div class="col-lg-4 col-md-6">
+                <figure class="effect">
+                    <img class="img-fluid" src="{% static 'img/work-square-dark-1.jpg' %}" alt="img18"/>
+                    <!-- Edit Image -->
+                    <figcaption>
+                        <h2>Сайт на <span>ДОД</span></h2> <!-- Edit -->
+                        <p>
+                            Создали сайт на День открытых дверей
+                            <!-- Edit -->
+                        </p>
+                        <!--<a href="index-particles-parallax.html#">View more</a> -->
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="effect">
+                    <img class="img-fluid" src="{% static 'img/work-square-dark-1.jpg' %}" alt="img18"/>
+                    <!-- Edit Image -->
+                    <figcaption>
+                        <h2>Сайт на <span>ДОД</span></h2> <!-- Edit -->
+                        <p>
+                            Создали сайт на День открытых дверей
+                            <!-- Edit -->
+                        </p>
+                        <!--<a href="index-particles-parallax.html#">View more</a> -->
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="effect">
+                    <img class="img-fluid" src="{% static 'img/work-square-dark-1.jpg' %}" alt="img18"/>
+                    <!-- Edit Image -->
+                    <figcaption>
+                        <h2>Сайт на <span>ДОД</span></h2> <!-- Edit -->
+                        <p>
+                            Создали сайт на День открытых дверей
+                            <!-- Edit -->
+                        </p>
+                        <!--<a href="index-particles-parallax.html#">View more</a> -->
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ========== End Portfolio ========== -->
+
+<!-- ===== Start Testimonials Section ===== -->
+<section id="testimonials">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="text-center">
+                    <h2 class="section-title">Наша команда</h2>
+                    <br>
+                    <p class="sub-title">Вот они с лева на право</p>
+                </div>
+            </div>
+        </div>
+        <div class="row margin-top">
+            <div class="col-lg-12">
+                <div id="owl-demo" class="owl-carousel">
+                    <div class="text-center testi_boxes mx-auto">
+                        <div class="row">
+                            <div class="col-md-6">
+
+                                <div class="resume-wrap ftco-animate fadeInUp ftco-animated">
+                                    <img src="{% static 'img/cat.jpg' %}" alt="" style="width: 350px">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+
+                                <div class="resume-wrap ftco-animate fadeInUp ftco-animated">
+                                    <span class="date">Django dev.</span>
+                                    <h2>Кот Котеев</h2>
+                                    <span class="position">КИПФИН</span>
+                                    <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
+                                        esse facere pariatur placeat ratione? Alias amet architecto asperiores atque
+                                        culpa distinctio dolor dolore doloremque ducimus ea esse expedita id iusto magni
+                                        molestias nam neque obcaecati praesentium qui reiciendis saepe tempora totam
+                                        unde ut vel veritatis vero, voluptatibus. Cum, placeat porro.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center testi_boxes mx-auto">
+                        <div class="row">
+                            <div class="col-md-6">
+
+                                <div class="resume-wrap ftco-animate fadeInUp ftco-animated">
+                                    <img src="{% static 'img/cat.jpg' %}" alt="" style="width: 350px">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+
+                                <div class="resume-wrap ftco-animate fadeInUp ftco-animated">
+                                    <span class="date">Django dev.</span>
+                                    <h2>Кот Котеев</h2>
+                                    <span class="position">КИПФИН</span>
+                                    <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
+                                        esse facere pariatur placeat ratione? Alias amet architecto asperiores atque
+                                        culpa distinctio dolor dolore doloremque ducimus ea esse expedita id iusto magni
+                                        molestias nam neque obcaecati praesentium qui reiciendis saepe tempora totam
+                                        unde ut vel veritatis vero, voluptatibus. Cum, placeat porro.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center testi_boxes mx-auto">
+                        <div class="row">
+                            <div class="col-md-6">
+
+                                <div class="resume-wrap ftco-animate fadeInUp ftco-animated">
+                                    <img src="{% static 'img/cat.jpg' %}" alt="" style="width: 350px">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+
+                                <div class="resume-wrap ftco-animate fadeInUp ftco-animated">
+                                    <span class="date">Django dev.</span>
+                                    <h2>Кот Котеев</h2>
+                                    <span class="position">КИПФИН</span>
+                                    <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
+                                        esse facere pariatur placeat ratione? Alias amet architecto asperiores atque
+                                        culpa distinctio dolor dolore doloremque ducimus ea esse expedita id iusto magni
+                                        molestias nam neque obcaecati praesentium qui reiciendis saepe tempora totam
+                                        unde ut vel veritatis vero, voluptatibus. Cum, placeat porro.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center testi_boxes mx-auto">
+                        <div class="row">
+                            <div class="col-md-6">
+
+                                <div class="resume-wrap ftco-animate fadeInUp ftco-animated">
+                                    <img src="{% static 'img/cat.jpg' %}" alt="" style="width: 350px">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+
+                                <div class="resume-wrap ftco-animate fadeInUp ftco-animated">
+                                    <span class="date">Django dev.</span>
+                                    <h2>Кот Котеев</h2>
+                                    <span class="position">КИПФИН</span>
+                                    <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
+                                        esse facere pariatur placeat ratione? Alias amet architecto asperiores atque
+                                        culpa distinctio dolor dolore doloremque ducimus ea esse expedita id iusto magni
+                                        molestias nam neque obcaecati praesentium qui reiciendis saepe tempora totam
+                                        unde ut vel veritatis vero, voluptatibus. Cum, placeat porro.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center testi_boxes mx-auto">
+                        <div class="row">
+                            <div class="col-md-6">
+
+                                <div class="resume-wrap ftco-animate fadeInUp ftco-animated">
+                                    <img src="{% static 'img/cat.jpg' %}" alt="" style="width: 350px">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+
+                                <div class="resume-wrap ftco-animate fadeInUp ftco-animated">
+                                    <span class="date">Django dev.</span>
+                                    <h2>Кот Котеев</h2>
+                                    <span class="position">КИПФИН</span>
+                                    <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
+                                        esse facere pariatur placeat ratione? Alias amet architecto asperiores atque
+                                        culpa distinctio dolor dolore doloremque ducimus ea esse expedita id iusto magni
+                                        molestias nam neque obcaecati praesentium qui reiciendis saepe tempora totam
+                                        unde ut vel veritatis vero, voluptatibus. Cum, placeat porro.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center testi_boxes mx-auto">
+                        <div class="row">
+                            <div class="col-md-6">
+
+                                <div class="resume-wrap ftco-animate fadeInUp ftco-animated">
+                                    <img src="{% static 'img/cat.jpg' %}" alt="" style="width: 350px">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+
+                                <div class="resume-wrap ftco-animate fadeInUp ftco-animated">
+                                    <span class="date">Django dev.</span>
+                                    <h2>Кот Котеев</h2>
+                                    <span class="position">КИПФИН</span>
+                                    <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
+                                        esse facere pariatur placeat ratione? Alias amet architecto asperiores atque
+                                        culpa distinctio dolor dolore doloremque ducimus ea esse expedita id iusto magni
+                                        molestias nam neque obcaecati praesentium qui reiciendis saepe tempora totam
+                                        unde ut vel veritatis vero, voluptatibus. Cum, placeat porro.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center testi_boxes mx-auto">
+                        <div class="row">
+                            <div class="col-md-6">
+
+                                <div class="resume-wrap ftco-animate fadeInUp ftco-animated">
+                                    <img src="{% static 'img/cat.jpg' %}" alt="" style="width: 350px">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+
+                                <div class="resume-wrap ftco-animate fadeInUp ftco-animated">
+                                    <span class="date">Django dev.</span>
+                                    <h2>Кот Котеев</h2>
+                                    <span class="position">КИПФИН</span>
+                                    <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
+                                        esse facere pariatur placeat ratione? Alias amet architecto asperiores atque
+                                        culpa distinctio dolor dolore doloremque ducimus ea esse expedita id iusto magni
+                                        molestias nam neque obcaecati praesentium qui reiciendis saepe tempora totam
+                                        unde ut vel veritatis vero, voluptatibus. Cum, placeat porro.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center testi_boxes mx-auto">
+                        <div class="row">
+                            <div class="col-md-6">
+
+                                <div class="resume-wrap ftco-animate fadeInUp ftco-animated">
+                                    <img src="{% static 'img/cat.jpg' %}" alt="" style="width: 350px">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+
+                                <div class="resume-wrap ftco-animate fadeInUp ftco-animated">
+                                    <span class="date">Django dev.</span>
+                                    <h2>Кот Котеев</h2>
+                                    <span class="position">КИПФИН</span>
+                                    <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
+                                        esse facere pariatur placeat ratione? Alias amet architecto asperiores atque
+                                        culpa distinctio dolor dolore doloremque ducimus ea esse expedita id iusto magni
+                                        molestias nam neque obcaecati praesentium qui reiciendis saepe tempora totam
+                                        unde ut vel veritatis vero, voluptatibus. Cum, placeat porro.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center testi_boxes mx-auto">
+                        <div class="row">
+                            <div class="col-md-6">
+
+                                <div class="resume-wrap ftco-animate fadeInUp ftco-animated">
+                                    <img src="{% static 'img/cat.jpg' %}" alt="" style="width: 350px">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+
+                                <div class="resume-wrap ftco-animate fadeInUp ftco-animated">
+                                    <span class="date">Django dev.</span>
+                                    <h2>Кот Котеев</h2>
+                                    <span class="position">КИПФИН</span>
+                                    <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
+                                        esse facere pariatur placeat ratione? Alias amet architecto asperiores atque
+                                        culpa distinctio dolor dolore doloremque ducimus ea esse expedita id iusto magni
+                                        molestias nam neque obcaecati praesentium qui reiciendis saepe tempora totam
+                                        unde ut vel veritatis vero, voluptatibus. Cum, placeat porro.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center testi_boxes mx-auto">
+                        <div class="row">
+                            <div class="col-md-6">
+
+                                <div class="resume-wrap ftco-animate fadeInUp ftco-animated">
+                                    <img src="{% static 'img/cat.jpg' %}" alt="" style="width: 350px">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+
+                                <div class="resume-wrap ftco-animate fadeInUp ftco-animated">
+                                    <span class="date">Django dev.</span>
+                                    <h2>Кот Котеев</h2>
+                                    <span class="position">КИПФИН</span>
+                                    <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
+                                        esse facere pariatur placeat ratione? Alias amet architecto asperiores atque
+                                        culpa distinctio dolor dolore doloremque ducimus ea esse expedita id iusto magni
+                                        molestias nam neque obcaecati praesentium qui reiciendis saepe tempora totam
+                                        unde ut vel veritatis vero, voluptatibus. Cum, placeat porro.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center testi_boxes mx-auto">
+                        <div class="row">
+                            <div class="col-md-6">
+
+                                <div class="resume-wrap ftco-animate fadeInUp ftco-animated">
+                                    <img src="{% static 'img/cat.jpg' %}" alt="" style="width: 350px">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+
+                                <div class="resume-wrap ftco-animate fadeInUp ftco-animated">
+                                    <span class="date">Django dev.</span>
+                                    <h2>Кот Котеев</h2>
+                                    <span class="position">КИПФИН</span>
+                                    <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
+                                        esse facere pariatur placeat ratione? Alias amet architecto asperiores atque
+                                        culpa distinctio dolor dolore doloremque ducimus ea esse expedita id iusto magni
+                                        molestias nam neque obcaecati praesentium qui reiciendis saepe tempora totam
+                                        unde ut vel veritatis vero, voluptatibus. Cum, placeat porro.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ===== End Testimonials Section ===== -->
+
+<!-- ========== [2.7] Hire Me Section =========== -->
+<section id="hire-me">
+    <div class="container text-center">
+        <p>
+            Какой-то крутой слоган
+            <!-- Edit -->
+        </p>
+        <h3>Какой-то <span>Очень</span> Крутой Слоган!</h3> <!-- Edit -->
+    </div>
+</section>
+<!-- =========== End Hire Me ============== -->
+<!-- =========== [2.8]  Contact ============ -->
+
+<!-- ========== End Contact ========== -->
+<a class="persone_totop" href="index-particles-parallax.html#"></a>
+<!-- ========== [2.9] Footer ========== -->
+<section id="footer">
+    <div class="container text-center">
+        <div class="social-media">
+
+            <h4>{{ gmail }}</h4>
+            <h4>{{ phone }}</h4>
+            <br>
+            <br>
+
+            <a href="{{ vk_link }}"><i class="fa fa-vk" aria-hidden="true"></i></a>
+            <a href="{{ tg_link }}#"><img src="{% static 'img/tg.png' %}" alt=""></a>
+
+            <h5>
+                Developed by ITC<br><br> By <a href="https://vk.com/allelleo" style="all: unset;cursor: pointer;">
+                <span class="name">@allelleo</span>
+            </a>
+            </h5>
+        </div>
+
+
+    </div>
+</section>
+<!-- ========== End Footer ========== -->
+<a href="{{ vk_link }}">
+    <div class="color-ctrl open">
+        <span class="toggler"><i class="fa fa-vk"></i></span>
+    </div>
+</a>
+<a href="{{ tg_link }}">
+    <div class="color-ctrl open" style="margin-top: 50px">
+        <span class="toggler">
+        <img src="{% static 'img/tg.png' %}" alt="">
+        </span>
+    </div>
+</a>
+<!-- ===== Javascript ===== -->
+<script src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
+<script defer src="{% static 'js/bootstrap.min.js' %}"></script>
+<script defer src="{% static 'js/popper.min.js' %}"></script>
+<script defer src="{% static 'js/wow.min.js' %}"></script>
+<script defer src="{% static 'js/TweenLite.min.js' %}"></script>
+<script defer src="{% static 'js/EasePack.min.js' %}"></script>
+<script defer src="{% static 'js/rAF.js' %}"></script>
+<script defer src="{% static 'js/header.js' %}"></script>
+<script defer src="{% static 'js/owl.carousel.js' %}"></script>
+<script defer src="{% static 'js/jquery.easing.min.js' %}"></script>
+<script defer src="{% static 'js/SmoothScrollm.js' %}"></script>
+<script defer src="{% static 'js/jarallax.js' %}"></script>
+<script defer src="{% static 'js/persone-main.js' %}"></script>
+
+
+<!-- ========== End Java Script ========== -->
+</body>
+
+</html>
